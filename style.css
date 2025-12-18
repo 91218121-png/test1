@@ -1,0 +1,27 @@
+/* 1. 整頁背景設為淺黃色 */
+body {
+  background-color: #FFFACD; /* 淺黃色 */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* 2. 學號、姓名樣式 */
+.student-info {
+  color: #6F4E37; /* 咖啡色文字 */
+  background-color: #D2B48C; /* 淺棕色背景 */
+  border: 1px solid #6F4E37; /* 咖啡色框線 */
+  border-radius: 6px; /* 圓角半徑 6px */
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* 3. 個人相片樣式 */
+.photo img {
+  width: 400px;   /* 寬度 */
+  height: 300px;  /* 高度 */
+  border: 3px solid green; /* 綠色框線 */
+  border-radius: 10px;     /* 圓角半徑 10px */
+  display: block;
+  margin-top: 10px;
+}
